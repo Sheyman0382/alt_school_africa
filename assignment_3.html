@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novus Watch</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        font-family: Georgia, "Times New Roman", serif;
+      }
+
+      .container {
+        min-height: 100vh;
+        background-color: #a8a8cc;
+        border: 20px solid white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 30px 15px;
+      }
+
+      .watch-card {
+        width: 100%;
+        max-width: 370px;
+
+        background-color: white;
+        border-radius: 8px;
+        padding: 15px;
+        position: relative;
+
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      .watch-image {
+        width: 100%;
+        height: 100%;
+
+        border-bottom: 3px solid #ddd;
+
+        overflow: hidden;
+        border-radius: 8px 8px 0 0;
+        
+      }
+
+      .watch-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        display: block;
+      }
+
+      
+      .badge {
+        position: absolute;
+        top: 8px;
+        left: -8px;
+        background-color: #fff0a6;
+        padding: 6px 16px;
+        border-radius: 8px 30px 30px 8px;
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+
+      
+      .watch-details {
+        padding: 15px 16px 24px;
+      }
+
+      .watch-details h1 {
+        font-size: 1.2rem;
+        font-weight: normal;
+        
+      }
+
+      .watch-details h1 span {
+        font-size: 15px;
+        color: #555;
+      }
+
+      .watch-details p {
+        font-size: 14px;
+        line-height: 1.15;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <article class="watch-card">
+        <div class="badge">New and Improved!</div>
+
+        <div class="watch-image">
+          <img src="novous_watch.jpg" alt="Novus Watch Series IV" />
+        </div>
+
+        <div class="watch-details">
+          <h1>Novus Watch <span>Series IV</span></h1>
+
+          <p>
+            The pinnacle of fashion and tech. This wearable piece is an homage
+            to gilded palaces and minimal regalia, combining nouveau-deco and
+            brutalism influences in a compact, Swiss-made watch.
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
